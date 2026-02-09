@@ -5,6 +5,7 @@ The system being solved is:
 
 - **Momentum (Navier–Stokes)**  
 $$\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{f}(T) $$
+
 $$ \frac{\partial T}{\partial t} + \mathbf{u} \cdot \nabla T = \alpha \nabla^2 T $$
 
 The solver iteratively applies the given differential equations while maintaining the **incompressibility constraint** $\nabla \cdot \mathbf{u} = 0 $.
