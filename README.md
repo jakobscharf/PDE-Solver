@@ -13,6 +13,6 @@ The solver iteratively applies the given differential equations while maintainin
 - **Diffusion:** Central finite differences  
 - **Boundary conditions:** No-slip walls, inflow/outflow, and thermal Dirichlet or Neumann conditions  
 
-![Image](projects/pde-solver.gif)
+![Image](pde-solver.gif)
 
 More information about the implementation can be found on the [github page](https://github.com/jakobscharf "PDE-Solver for Navier-Stokes/Heat").
